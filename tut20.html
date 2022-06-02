@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+  <style>
+      .container{
+          background-color: aquamarine;
+          border: 30px;
+          color: blueviolet;
+
+          /* we can set the margin for the top bottom right left like this */
+         /*  padding-left: 0cm;
+          padding-right: 0cm;
+          padding-top: 0ch;
+          padding-bottom: 0cm; */
+
+         padding: 23px 56px 6px 78px;  /* padding/margin = top right bottom left;  */
+
+         margin: 34px;
+         box-sizing: border-box;
+      }
+  </style>
+</head>
+<body>
+    <div class="container">
+  <h3>this is my heading</h3>
+<p id="first">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim aliquam aut molestiae totam optio laborum cupiditate ut aperiam placeat. Nesciunt delectus beatae enim facere ex illo minima, iusto similique, excepturi neque necessitatibus. Vel, tenetur repellat. Possimus voluptas minus aperiam at!</p>
+    </div>
+
+    <div class="container">
+        <h3>this is my heading</h3>
+      <p id="second">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim aliquam aut molestiae totam optio laborum cupiditate ut aperiam placeat. Nesciunt delectus beatae enim facere ex illo minima, iusto similique, excepturi neque necessitatibus. Vel, tenetur repellat. Possimus voluptas minus aperiam at!</p>
+          </div>
+
+          <div class="container">
+            <h3>this is my heading</h3>
+          <p id="third">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim aliquam aut molestiae totam optio laborum cupiditate ut aperiam placeat. Nesciunt delectus beatae enim facere ex illo minima, iusto similique, excepturi neque necessitatibus. Vel, tenetur repellat. Possimus voluptas minus aperiam at!</p>
+              </div>
+</body>
+</html>

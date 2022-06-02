@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alignment</title>
+    <style>
+        .container {
+            width: 900px;
+            border: 3px solid purple;
+            background-color: rgb(250, 226, 205);
+            margin: 33px auto;
+        }
+
+        .item {
+            border: 3px solid grey;
+            margin: 12px 3px;
+            padding: 12px 3px;
+            background: rgb(248, 238, 238);
+        }
+
+        #fruit{
+            float: right;
+            width: 48%; 
+        }
+
+        #computer{ 
+            float: left;
+            width: 48%;
+        }
+
+        #stationary{
+            clear: both;
+            clear: left;
+            width: 100%;
+        }
+        p , h3{
+            /* text-align: right; */
+            /* text-align: left; */
+            text-align: center;
+        }
+        h1{
+            margin: 23px auto;
+            width: 455px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <h1>welcome to my store</h1>
+        <div id="fruits" class="item">
+            <h3>Fruits</h3>
+            <p id="fruitspara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum repudiandae, adipisci commodi officia ut atque necessitatibus voluptatibus omnis quibusdam facere iure. Explicabo consequuntur eius dolor voluptatibus doloremque molestiae, voluptas similique?
+            </p>
+        </div>
+        <div id="computer" class="item">
+            <h3>Computer</h3>
+            <p id="computerspara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum repudiandae, adipisci commodi officia ut atque necessitatibus voluptatibus omnis quibusdam facere iure. Explicabo consequuntur eius dolor voluptatibus doloremque molestiae, voluptas similique?
+            </p>
+        </div>
+        <div id="stationary" class="item">
+            <h3>Stationary</h3>
+            <p id="stationaryspara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum repudiandae, adipisci commodi officia ut atque necessitatibus voluptatibus omnis quibusdam facere iure. Explicabo consequuntur eius dolor voluptatibus doloremque molestiae, voluptas similique?
+            </p>
+        </div>
+    </div>
+</body>
+</html>
